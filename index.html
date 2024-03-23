@@ -1,0 +1,2434 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Bertrand Braunschweig" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Brings together researchers and practitioners in software engineering and machine learning to discuss challenges of building complex AI-based software systems." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://semla.quebec/mlops/" />
+
+  
+  
+  
+    <meta name="theme-color" content="DodgerBlue" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/mlops/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <link rel="stylesheet" href="/mlops/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/mlops/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" >
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/mlops/css/wowchemy.844c4755b90ef488b0fd7835e0181aea.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+    <link rel="alternate" href="/mlops/index.xml" type="application/rss+xml" title="WS. on Trustworthy AI" />
+  
+
+  
+    <link rel="manifest" href="/mlops/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/mlops/media/icon_hu2be58cdd2ec048fc92d683e8561c49bc_2631_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/mlops/media/icon_hu2be58cdd2ec048fc92d683e8561c49bc_2631_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://semla.quebec/mlops/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@semla_sym" />
+    <meta property="twitter:creator" content="@semla_sym" />
+  
+  <meta property="og:site_name" content="WS. on Trustworthy AI" />
+  <meta property="og:url" content="https://semla.quebec/mlops/" />
+  <meta property="og:title" content="WS. on Trustworthy AI" />
+  <meta property="og:description" content="Brings together researchers and practitioners in software engineering and machine learning to discuss challenges of building complex AI-based software systems." /><meta property="og:image" content="https://semla.quebec/mlops/media/icon_hu2be58cdd2ec048fc92d683e8561c49bc_2631_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://semla.quebec/mlops/media/icon_hu2be58cdd2ec048fc92d683e8561c49bc_2631_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite","url": "https://semla.quebec/mlops/"
+}
+</script>
+
+
+  
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://semla.quebec/mlops/",
+  "name": "WS. on Trustworthy AI",
+  "logo": "https://semla.quebec/mlops/media/icon_hu2be58cdd2ec048fc92d683e8561c49bc_2631_192x192_fill_lanczos_center_3.png",
+  
+  
+  
+  
+  "url": "https://semla.quebec/mlops/"
+}
+</script>
+
+  
+
+  
+
+  
+<link rel="preload" href="/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+
+  <title>WS. on Trustworthy AI</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  dark "  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/mlops/js/wowchemy-init.min.6a6813e7ed475370e052267c3a688edc.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">WS. on Trustworthy AI</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">WS. on Trustworthy AI</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/mlops/#about"><span>Intro</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/mlops/#speakers"><span>Speakers</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/mlops/#schedule"><span>Schedule</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/mlops/#cai"><span>About us</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/mlops/#location"><span>Location</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+
+  
+  
+    
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="intro" class="home-section wg-hero  d-flex align-items-center fullscreen"  >
+   <div class="home-section-bg " style="background-color: black;">
+     <video class="bg-video " playsinline="" preload="auto" loop="" muted autoplay="" tabindex="-1" width="100%" height="100%" src="/mlops/media/backgrounds/wallpaper-light-darken.webm" style="width: 100%; height: 100%; object-fit: cover; object-position: center center; opacity: 1;"></video>
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+
+    
+      <h1 class="hero-title"><p style="color: white; font-size: 3.75rem; text-shadow: 0 0 50px black, 0 0 50px black, 0 0 50px black, 0 0 50px black;">Workshop on Trustworthy AI</p>
+</h1>
+    
+
+    
+      <div class="hero-lead"><p style="color: white; font-size: 1.3rem; text-shadow: 0 0 50px black, 0 0 50px black, 0 0 50px black, 0 0 50px black;">On May 27th 2024 in Polytechnique Montreal</p>
+<p style="color: transparent; padding-bottom: 0.25rem;">aaa</p>
+</div>
+    
+
+    
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+    <p class="cta-btns">
+      <a href="/mlops/#tickets"  class="btn btn-primary btn-lg mb-md-1"><strong>Purchase your ticket</strong></a>
+
+      
+      
+        
+        
+        
+        
+          
+        
+      <a href="/mlops/#schedule"  class="hero-cta-alt btn-lg pl-md-4"><span style="color: white; font-size: 1.3rem; text-shadow: 0 0 50px black, 0 0 50px black, 0 0 50px black, 0 0 50px black;">Schedule</span> <i class="fas fa-angle-right"></i></a>
+      
+    </p>
+    
+
+    
+    
+
+  
+  
+
+
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="stats" class="home-section wg-featurette dark " style="padding: 5px 0 5px 0;" >
+   <div class="home-section-bg " style="background-color: DodgerBlue;">
+     
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+<div class="row featurette">
+  
+
+  
+
+  
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon">4</div>
+    
+    <div class="section-subheading">Organizers</div>
+    
+  </div>
+  
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon">7</div>
+    
+    <div class="section-subheading">Speakers</div>
+    
+  </div>
+  
+  
+  
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon">100+</div>
+    
+    <div class="section-subheading">Participants</div>
+    
+  </div>
+  
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+    
+    
+    
+      
+      
+    
+    
+    
+  
+
+  
+    
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="about" class="home-section wg-blank dark fullscreen"  >
+   <div class="home-section-bg  bg-image parallax" style="background-image: url(&#39;https://semla.quebec/mlops/media/backgrounds/photo_3_hu4ca1c00a1561a93ef8d3a72bf10c0142_150000_1920x1920_fit_q75_h2_lanczos.webp&#39;);filter: brightness(0.3);">
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0"><strong>Workshop on Trustworthy Artificial Intelligence</strong></h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <br>
+<p style="line-height: 2em;font-size:1.15em;">Join us for a groundbreaking event focused on Trustworthy AI! Artificial intelligence (AI) is reshaping our world, empowering organizations to enhance forecasting, innovate products and services, and boost efficiency. Yet, concerns over AI's reliability prompt crucial discussions on ensuring its trustworthiness.</p>
+<p style="line-height: 2em;font-size:1.15em;">Our Trustworthy AI Day, hosted by Confiance.ai and Confiance IA alongside industry and academic partners, aims to address these concerns head-on. Delving into the technological and regulatory dimensions, our event offers a platform to exchange insights, experiences, and ideas on fostering responsible AI practices.</p>
+<p style="line-height: 2em;font-size:1.15em;">This day is dedicated to exploring sustainable, ethical, and secure AI, inviting participants to connect with key stakeholders and foster collaboration. Whether you're passionate about AI ethics or eager to navigate its complexities, join us for a day of enlightenment and collaboration. All enthusiasts of Trustworthy AI are warmly welcomed.</p>
+<p style="line-height: 2em;font-size:1.15em;">Stay tuned for updates!</p>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="speakers" class="home-section wg-people  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+
+  
+
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">Speakers</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/mlops/authors/julien-crowe/avatar_hu0186f7959b2a73fe4edc5e73a1de0cf2_470594_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Julien Crowe</h2>
+      
+      <h3>Senior Director &amp; Head of ML Engineering - National Bank of Canada</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/mlops/authors/juliette-mattioli/avatar_hud509269220091987e8e5cbdb5ea62a8a_23185_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Juliette Mattioli</h2>
+      
+      <h3>Senior Expert in AI &amp; Segment Leader on Hybrid AI and on AI Engineering - Thales Group</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/mlops/authors/luc-sirois/avatar_hu93e3876cba4cbb3a998d5051330e80c6_607020_270x270_fill_lanczos_center_3.png" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Luc Sirois</h2>
+      
+      <h3>Chief Innovator of Quebec, Director General of the Quebec Innovation Council</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/mlops/authors/peter-lewis/avatar_hucad19b56634bebd081daad3e26a8b3cb_216317_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Peter Lewis</h2>
+      
+      <h3>Canada Research Chair in Trustworthy Artificial Intelligence - Ontario Tech University</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/mlops/authors/pierre-bilodeau/avatar_hu2e5b76f49e868bc136421c4d12e0f75a_82351_270x270_fill_lanczos_center_3.png" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Pierre Bilodeau</h2>
+      
+      <h3>Interim Vice-President, Standards and International Relations - Standard Council of Canada</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/mlops/authors/sebastian-hallensleben/avatar_hu6bb403ba38ee6b4838c4b0afd62d5bb3_67740_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Sébastian Hallensleben</h2>
+      
+      <h3>President of JTC21 (AI) of CEN-CENELEC</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">Organizers</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/mlops/authors/bertrand-braunschweig/avatar_hu21e33db84f330f309d6cf5da23bdd2c9_21373_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Bertrand Braunschweig</h2>
+      
+      <h3>Scientific Coordinator - Confiance.ai</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/mlops/authors/brigitte-jaumard/avatar_huaa778574ddda2eb339e2c6786f1fe99f_54174_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Brigitte Jaumard</h2>
+      
+      <h3>Scientific Director - Confiance IA</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/mlops/authors/foutse-khomh/avatar_hu88424e5682f77b6de1d5d8497e631059_170181_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Foutse Khomh</h2>
+      
+      <h3>Professor of Software Engineering - Polytechnique Montreal</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/mlops/authors/juliette-mattioli-org/avatar_hud509269220091987e8e5cbdb5ea62a8a_23185_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="portrait-title">
+      <h2>Juliette Mattioli</h2>
+      
+      <h3>Senior Expert in AI &amp; Segment Leader on Hybrid AI and on AI Engineering - Thales Group</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+    
+    
+    
+      
+      
+    
+    
+    
+  
+
+  
+    
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="schedule" class="home-section wg-blank dark fullscreen" style="padding: 20px 0 20px 0;" >
+   <div class="home-section-bg  bg-image parallax" style="background-image: url(&#39;https://semla.quebec/mlops/media/backgrounds/photo_2_hub7c9a678ab95f4dfc9a5b35d5c183d44_118531_1920x1920_fit_q75_h2_lanczos.webp&#39;);filter: brightness(0.2);">
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">Schedule</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<table class="table">
+  
+    
+    
+    <tr>  <th>Time</th>  <th>Speaker</th>  <th>Event</th>  </tr>
+  
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">9:00 - 9:15</td>
+        
+      
+        
+          <td data-table-dtype="text">Organizers</td>
+        
+      
+        
+          <td data-table-dtype="text">Welcome Keynote</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">9:15 - 9:45</td>
+        
+      
+        
+          <td data-table-dtype="text">Juliette Mattioli</td>
+        
+      
+        
+          <td data-table-dtype="text">The « Thales TrUE AI strategy » for Trustworthy and Responsible AI</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">9:45 - 10:15</td>
+        
+      
+        
+          <td data-table-dtype="text">MLOps Challenges</td>
+        
+      
+        
+          <td data-table-dtype="text">Talk on Challenges of ML projects in 2023 By Alireza Darbehani</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">10:15 - 10:30</td>
+        
+      
+        
+          <td data-table-dtype="text">Break</td>
+        
+      
+        
+          <td data-table-dtype="text">Morning Coffee</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">10:30 - 11:00</td>
+        
+      
+        
+          <td data-table-dtype="text">MLOps Practices</td>
+        
+      
+        
+          <td data-table-dtype="text">Talk on Monitoring Machine Learning Applications By Heng Li</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">11:00 - 11:30</td>
+        
+      
+        
+          <td data-table-dtype="text">MLOps Practices</td>
+        
+      
+        
+          <td data-table-dtype="text">Talk on Reproducible ML Experimentation with DVC and VS Code By Alexander Kim</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">11:30 - 12:00</td>
+        
+      
+        
+          <td data-table-dtype="text">MLOps Practices</td>
+        
+      
+        
+          <td data-table-dtype="text">Talk on Practices for sane MLOps Engineering By Emilio Rivera-Landos</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">12:00 - 14:00</td>
+        
+      
+        
+          <td data-table-dtype="text">Break</td>
+        
+      
+        
+          <td data-table-dtype="text">Lunch &amp; Networking</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">14:00 - 14:30</td>
+        
+      
+        
+          <td data-table-dtype="text">MLOps Concepts &amp; Beyond</td>
+        
+      
+        
+          <td data-table-dtype="text">Talk: Is MLOps basically Data Engineering rebranded? By Apurva Misra</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">14:30 - 15:00</td>
+        
+      
+        
+          <td data-table-dtype="text">MLOps Concepts &amp; Beyond</td>
+        
+      
+        
+          <td data-table-dtype="text">Talk on The Emergence of KnowledgeOps By Amir Feizpour</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">15:00 - 15:30</td>
+        
+      
+        
+          <td data-table-dtype="text">MLOps Concepts &amp; Beyond</td>
+        
+      
+        
+          <td data-table-dtype="text">Talk on Advancing State-of-the-art Log Analytics Infrastructures By Weiyi Shang</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">15:30 - 15:45</td>
+        
+      
+        
+          <td data-table-dtype="text">Break</td>
+        
+      
+        
+          <td data-table-dtype="text">Evening Coffee</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">15:45 - 16:15</td>
+        
+      
+        
+          <td data-table-dtype="text">MLOps for Responsible AI</td>
+        
+      
+        
+          <td data-table-dtype="text">Talk on Policy-Driven Monitoring of AI systems By David Van Bruwaene</td>
+        
+      
+    </tr>
+  
+    <tr>
+      
+        
+          <td data-table-dtype="text">16:15 - 17:00</td>
+        
+      
+        
+          <td data-table-dtype="text">MLOps for Responsible AI</td>
+        
+      
+        
+          <td data-table-dtype="text">Panel on Benefits and Risks of the Rise of LLMs along with LLMOps Implications and Opportunities</td>
+        
+      
+    </tr>
+  
+  
+</table>
+
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+    
+    
+    
+      
+      
+    
+    
+    
+  
+
+  
+    
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="cai" class="home-section wg-blank dark fullscreen"  >
+   <div class="home-section-bg  bg-image parallax" style="background-image: url(&#39;https://semla.quebec/mlops/media/backgrounds/Confiance-AI2_hu385a5c3f6f979872d3199467ced47001_230648_1920x1920_fit_q75_h2_lanczos_3.webp&#39;);filter: brightness(0.4);">
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0"><strong>About Us:</strong> Confiance.ai</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <p><br><br><br><br></p>
+<p style="line-height: 2em;font-size:1.25em;"> <a href="https://www.confiance.ai/">Confiance.ai</a> is a unique French community dedicated to the design and industrialization of trustworthy critical systems based on artificial intelligence. Confiance.ai aims to help industrials integrate trustworthy AI in their critical systems thanks to an environment built with methods and tools that can be integrated in any engineering workshop.
+</p>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+    
+    
+    
+      
+      
+    
+    
+    
+  
+
+  
+    
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="cia" class="home-section wg-blank dark fullscreen"  >
+   <div class="home-section-bg  bg-image parallax" style="background-image: url(&#39;https://semla.quebec/mlops/media/backgrounds/CIA_hu15ecfc2d0a16bf3a1ab307a73f52b7f3_264986_1920x1920_fit_q75_h2_lanczos_3.webp&#39;);filter: brightness(0.7);">
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0"><strong>About Us:</strong> Confiance IA</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <p><br><br><br><br></p>
+<p style="line-height: 2em;font-size:1.25em;"> <a href="https://www.confianceia.ca/le-consortium/">Confiance IA</a> is a Quebec industrial research consortium working to develop sustainable, ethical, safe and responsible artificial intelligence. Confiance IA brings together private and public actors to co-develop methods and tools to generate concrete solutions to the challenges linked to the industrialization of AI.
+</p>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+    
+    
+    
+      
+      
+    
+    
+    
+  
+
+  
+    
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="sponsors" class="home-section wg-blank dark align-items-center" style="padding: 20px 0 20px 0;" >
+   <div class="home-section-bg  bg-image parallax" style="background-image: url(&#39;https://semla.quebec/mlops/media/backgrounds/spotlight-resize_hucfe984294ac02e2e81a2f6e22be1d2d6_36919_1920x1920_fit_q75_h2_lanczos.webp&#39;);filter: brightness(0.9);">
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0"><strong>Sponsors</strong></h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="CIA" srcset="
+               /mlops/media/sponsors/logo-noir_hub3fb1bba468b2df6c02f813a08fc9eaa_8843_6778dddebbc52b039ebe2ef7c066db3e.webp 400w,
+               /mlops/media/sponsors/logo-noir_hub3fb1bba468b2df6c02f813a08fc9eaa_8843_5fa1ced3232426dce747bac81c7ed026.webp 760w,
+               /mlops/media/sponsors/logo-noir_hub3fb1bba468b2df6c02f813a08fc9eaa_8843_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/mlops/media/sponsors/logo-noir_hub3fb1bba468b2df6c02f813a08fc9eaa_8843_6778dddebbc52b039ebe2ef7c066db3e.webp"
+               width="379"
+               height="69"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="CAI" srcset="
+               /mlops/media/sponsors/logo-confiance-ai-resize_hud0fcf2970df0e6a308ba1a0c83c193d4_15111_19f742cb3292caae3fb1e47f742779d5.webp 400w,
+               /mlops/media/sponsors/logo-confiance-ai-resize_hud0fcf2970df0e6a308ba1a0c83c193d4_15111_5db7cf539bf355e959f67ae86b4b99f9.webp 760w,
+               /mlops/media/sponsors/logo-confiance-ai-resize_hud0fcf2970df0e6a308ba1a0c83c193d4_15111_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/mlops/media/sponsors/logo-confiance-ai-resize_hud0fcf2970df0e6a308ba1a0c83c193d4_15111_19f742cb3292caae3fb1e47f742779d5.webp"
+               width="234"
+               height="158"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="POLY" srcset="
+               /mlops/media/sponsors/logo-poly-resize_hu21e75c294a5527f51c7debb229c7d350_32580_09673fc2b6987fbe238b871f0e45d254.webp 400w,
+               /mlops/media/sponsors/logo-poly-resize_hu21e75c294a5527f51c7debb229c7d350_32580_e5225bcbfc62b5856eec1fedf09ba97b.webp 760w,
+               /mlops/media/sponsors/logo-poly-resize_hu21e75c294a5527f51c7debb229c7d350_32580_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/mlops/media/sponsors/logo-poly-resize_hu21e75c294a5527f51c7debb229c7d350_32580_09673fc2b6987fbe238b871f0e45d254.webp"
+               width="278"
+               height="114"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="THALES" srcset="
+               /mlops/media/sponsors/logo-thales_hu54e41626f9df2aadaafec9c9b2b7ba94_13762_31fd296f8c2a684f8c904cde945e7cef.webp 400w,
+               /mlops/media/sponsors/logo-thales_hu54e41626f9df2aadaafec9c9b2b7ba94_13762_19f00cdfd95b8e42edac5ce161e079c1.webp 760w,
+               /mlops/media/sponsors/logo-thales_hu54e41626f9df2aadaafec9c9b2b7ba94_13762_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/mlops/media/sponsors/logo-thales_hu54e41626f9df2aadaafec9c9b2b7ba94_13762_31fd296f8c2a684f8c904cde945e7cef.webp"
+               width="339"
+               height="76"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+
+  
+  
+  
+  
+
+  
+    
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="location" class="home-section wg-contact dark "  >
+   <div class="home-section-bg " style="background-color: black;">
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">Location</h1>
+            <p class="mt-1">Polytechnique Montréal - Lecture Room (M-1010)</p>
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 ">
+  
+
+  
+
+  <ul class="fa-ul">
+
+    
+
+    
+
+    
+    
+      
+      <li>
+        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address">2500 Chem. de Polytechnique, Montréal, QC H3T 1J4</span>
+      </li>
+    
+
+    
+    <li>
+      <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
+      <span>5 minutes walk from Université-de-Montréal Metro station</span>
+    </li>
+    
+
+    
+
+    
+
+    
+    
+
+  </ul>
+
+  
+  <div class="d-none">
+    <input id="map-provider" value="mapnik">
+    <input id="map-lat" value="45.50513625406622">
+    <input id="map-lng" value="-73.61197913553751">
+    <input id="map-dir" value="2500 Chem. de Polytechnique, Montréal, QC H3T 1J4">
+    <input id="map-zoom" value="15">
+    <input id="map-api-key" value="">
+  </div>
+  <div id="map"></div>
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    Copyright © 2024 H.B.B
+  </p>
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/mlops/js/vendor-bundle.min.b4708d4364577c16ab7001b265a063a4.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/mlops/en/js/wowchemy.min.236ae12851def447fde9370101ca79b4.js"></script>
+
+    
+    
+      <script src="/mlops/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+    
+    
+    
+    
+
+
+
+
+
+
+</body>
+</html>
